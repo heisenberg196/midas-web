@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="blob-home2.svg"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 796.0893 743.01068"
+   height="743.01068mm"
+   width="796.08929mm">
+  <defs
+     id="defs2">
+    <rect
+       x="14.515361"
+       y="43.837833"
+       width="125.12569"
+       height="30.107615"
+       id="rect1334" />
+    <rect
+       x="13.591127"
+       y="44.066475"
+       width="118.20016"
+       height="22.486906"
+       id="rect1311" />
+    <rect
+       x="-2.4491401"
+       y="-30.447262"
+       width="116.87243"
+       height="84.970566"
+       id="rect1299" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect364"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect56"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect24"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect20"
+       is_visible="true"
+       lpeversion="1" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1233"
+       id="linearGradient1235-3"
+       x1="133.45374"
+       y1="-3.7942383"
+       x2="166.11172"
+       y2="209.70219"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.88807577,0,0,0.90711474,-4.3521939,7.2229078)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1233">
+      <stop
+         style="stop-color:#ff21e0;stop-opacity:0.58551975"
+         offset="0"
+         id="stop1229" />
+      <stop
+         style="stop-color:#1b00a6;stop-opacity:1"
+         offset="1"
+         id="stop1231" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1548"
+       is_visible="true"
+       lpeversion="1" />
+    <rect
+       x="14.515361"
+       y="43.837833"
+       width="125.12569"
+       height="30.107615"
+       id="rect1334-3" />
+    <rect
+       x="14.515361"
+       y="43.837833"
+       width="125.12569"
+       height="30.107615"
+       id="rect1676" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1233"
+       id="linearGradient1754"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.3272746,0,0,3.1595941,879.54657,207.90387)"
+       x1="133.45374"
+       y1="-3.7942383"
+       x2="166.11172"
+       y2="209.70219" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.079355946"
+     inkscape:cx="626.51898"
+     inkscape:cy="162.24603"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="731"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-894.84917,-188.46054)">
+    <path
+       style="opacity:0.790518;mix-blend-mode:lighten;fill:url(#linearGradient1754);fill-opacity:1;stroke:#810d71;stroke-width:0.859218;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.785213"
+       d="m 973.0134,324.83562 c 60.8607,-57.99313 135.3152,-103.10721 217.1468,-122.36371 9.9263,-2.33585 19.94,-4.29099 29.9955,-5.98674 93.8145,-15.82087 193.4461,-8.09715 278.6154,34.30152 66.3002,33.00532 122.4258,86.95326 155.7008,153.11851 30.1747,60.0005 41.2012,129.0528 33.8257,195.80739 -11.5698,104.71683 -68.74,202.82158 -151.6276,267.8533 -54.702,42.91792 -120.5956,72.04566 -189.5738,80.77823 -53.3077,6.7487 -108.7015,1.14029 -157.9721,-20.29956 -27.8279,-12.10917 -53.6571,-29.29725 -74.1208,-51.70844 -22.4308,-24.56552 -37.8252,-54.58995 -52.8813,-84.25341 -15.056,-29.66346 -30.3003,-59.74198 -52.5042,-84.51279 -3.6089,-4.02613 -7.3882,-7.8955 -11.15253,-11.77667 -23.14307,-23.86115 -45.88075,-48.35587 -64.38086,-75.97293 -18.50011,-27.61706 -32.72232,-58.64781 -37.24991,-91.5789 -7.57032,-55.06221 13.10864,-111.77917 48.68858,-154.47841 8.52014,-10.22495 17.85483,-19.7459 27.49032,-28.92739 z"
+       id="path362-5"
+       inkscape:original-d="m 973.0134,324.83562 c 9.16239,-9.64331 144.7652,-81.57497 217.1468,-122.36371 72.3813,-40.78878 19.9978,-3.99034 29.9955,-5.98674 9.9976,-1.99641 185.7443,22.86851 278.6154,34.30152 92.871,11.43298 103.8015,102.07985 155.7008,153.11851 51.8996,51.03866 22.5511,130.53918 33.8257,195.80739 11.2741,65.26828 -101.0842,178.56972 -151.6276,267.8533 -50.5434,89.28357 -126.3818,53.85302 -189.5738,80.77823 -63.1923,26.92511 -105.3137,-13.53231 -157.9721,-20.29956 -52.6579,-6.76736 -49.4129,-34.47148 -74.1208,-51.70844 -24.7079,-17.23699 -70.2561,-112.50999 -105.3855,-168.7662 -35.12925,-56.25613 -7.4342,-7.85022 -11.15253,-11.77667 -3.7184,-3.92634 -67.75293,-111.70037 -101.63077,-167.55183 -33.87784,-55.85145 32.45991,-102.98473 48.68858,-154.47841 16.22855,-51.49363 18.32758,-19.28407 27.49032,-28.92739 z"
+       inkscape:path-effect="#path-effect1548" />
+    <text
+       xml:space="preserve"
+       id="text1297"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1299);fill:#ffffff;fill-opacity:1;stroke:none;"
+       transform="matrix(2.836687,0,0,3.2613018,253.15781,215.17122)" />
+    <text
+       xml:space="preserve"
+       id="text1309"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1311);fill:#ffffff;fill-opacity:1;stroke:none;"
+       transform="matrix(2.836687,0,0,3.2613018,253.15781,215.17122)" />
+    <text
+       xml:space="preserve"
+       id="text1332"
+       style="font-style:normal;font-weight:normal;font-size:6.24639px;line-height:1.05;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1334-3);opacity:0.790518;fill:#ffffff;fill-opacity:1;stroke:none;"
+       transform="matrix(4.0060773,0,0,2.8213773,1079.0684,438.47361)"><tspan
+         x="14.515625"
+         y="48.739843"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.24639px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Lorem Ipsum Lorem Ipsum Lorem </tspan></tspan><tspan
+         x="14.515625"
+         y="55.298551"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.24639px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Lore Ipsum Lorem Ipsum Lorem </tspan></tspan><tspan
+         x="14.515625"
+         y="61.857259"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.24639px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Ipsum </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:103.954px;line-height:1.05;font-family:sans-serif;letter-spacing:-10.9984px;word-spacing:-0.0778194px;opacity:0.790518;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.96376"
+       x="1041.0782"
+       y="450.65234"
+       id="text1305"
+       transform="scale(1.0880236,0.91909772)"><tspan
+         sodipodi:role="line"
+         id="tspan1303"
+         x="1041.0782"
+         y="450.65234"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:103.954px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:2.96376">Web App</tspan><tspan
+         sodipodi:role="line"
+         x="1041.0782"
+         y="559.80402"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:103.954px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:2.96376"
+         id="tspan1307">Task</tspan></text>
+  </g>
+</svg>

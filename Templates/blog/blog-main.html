@@ -1,0 +1,250 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SoftLand Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: SoftLand - v4.1.0
+  * Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container-fluid mx-3 mr-5 d-flex  align-items-center ">
+          <div class="logo mr-2 float-left">
+            <img src="{% static  'img/midas-logo.png' %}" alt="logo" data-aos="fade-right" data-aos-delay="200">
+    
+          </div>
+          <div class="logo  float-left">
+            <h1><a href="index.html"> Midas IIITD</a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html"><img src="{% static 'img/logo.png" alt="" class="img-fluid"></a>-->
+          </div>
+          <div class="d-flex align-items-end  ">
+            <nav id="navbar" class="navbar d-flex align-items-end ">
+              <ul>
+                <!-- <li><a class="active " href="index.html">Home</a></li>
+              <li><a href="features.html">Features</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="blog.html">Blog</a></li> -->
+                <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a></li>
+                <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down"></i></a></li>
+                <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a></li>
+                <li class="dropdown"><a href="#"><span>Blog</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="{% url 'blog' %}">Blogs</a></li>
+                  <li><a href="#">Research</a></li>
+                  <li><a href="#">Papers</a></li>
+                 
+                </ul>
+              </li>
+                <li class="dropdown"><a href="#"><span>Contact</span> <i class="bi bi-chevron-down"></i></a>
+                  <!-- <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 2</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                </ul> -->
+                </li>
+                <!-- <li><a href="contact.html">Contact Us</a></li> -->
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle float-right " style="position: relative; left: 50px;"></i>
+            </nav><!-- .navbar -->
+          </div>
+        </div>
+      </header><!-- End Header -->
+      <section class="hero-section" id="hero">
+
+        <div class="wave">
+    
+          <svg width="100%" height="355px" viewBox="0 0 1920 355" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#FFFFFF">
+                <path
+                  d="M0,439.134243 C175.04074,464.89273 327.944386,477.771974 458.710937,477.771974 C654.860765,477.771974 870.645295,442.632362 1205.9828,410.192501 C1429.54114,388.565926 1667.54687,411.092417 1920,477.771974 L1920,757 L1017.15166,757 L0,757 L0,439.134243 Z"
+                  id="Path"></path>
+              </g>
+            </g>
+          </svg>
+    
+        </div>
+        <img height="300" width="1000" src="{% static 'img/banner.jpeg' %}" alt="" style="position: absolute; top: 200px; right: 200px;">
+
+    
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <!-- <div class="col-7 hero-text-image">
+              <div class="row"> -->
+                <!-- <div class="col-lg-8 text-center text-lg-start">
+                  <h1 data-aos="fade-right">Promote Your App with SoftLand</h1>
+                  <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit.</p>
+                  {% if not user.is_authenticated %}
+    
+                  <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="{% url 'account_login' %}"
+                      class="btn btn-outline-white">Login|Signup</a></p>
+                  {% endif %}
+                </div> -->
+                
+                <div class="col-lg-4 ">
+                  <!-- <img src="{% static 'img/phone_1.png' %}" alt="Image" class="phone-1" data-aos="fade-right"> -->
+                  <img src="{% static  'img/home-pic.jpg' %}" alt="Image" id="home-pic" data-aos="fade-right"
+                    data-aos-delay="200">
+                </div>
+                        
+               
+              <!-- </div>
+            </div> -->
+            <!-- <div class="col-5 " id="blob"> -->
+              <!-- <?xml version="1.0" encoding="UTF-8"?>
+              <svg width="190.53mm" height="114.26mm" version="1.1" viewBox="40 0 212.53 213.26"
+                xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#"
+                xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                  <linearGradient id="linearGradient1754" x1="133.45" x2="166.11" y1="-3.7942" y2="209.7"
+                    gradientTransform="matrix(.88808 0 0 .90711 -240.01 -3.8279)" gradientUnits="userSpaceOnUse">
+                    <stop style="stop-color:#f051db;stop-opacity:.58552" offset="0" />
+                    <stop style="stop-color:#1b00a6" offset="1" />
+                  </linearGradient>
+                </defs>
+    
+                <g xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(235.95738,9.3697016)">
+                  <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:12.0921px;line-height:1.05;font-family:sans-serif;letter-spacing:-1.12183px;word-spacing:-0.0079375px;opacity:0.790518;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.302302" x="-175.06377" y="44.451038" id="text1305" transform="scale(0.94015013,1.0636599)"><tspan xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:role="line" id="tspan1303" x="-175.06377" y="44.451038" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.7965px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.302302">Web App</tspan><tspan xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:role="line" x="-175.06377" y="71.537361" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.7965px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.302302" id="tspan1307">Task</tspan></text>
+                  <text xml:space="preserve" id="text1332" style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1334-3);opacity:0.790518;fill:#ffffff;fill-opacity:1;stroke:none;" transform="translate(-178.65641,40.264977)"><tspan x="14.515625" y="53.20163"><tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Lorem Ipsum Lorem Ipsum Lorem </tspan></tspan><tspan x="14.515625" y="66.430756"><tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Lore Ipsum Lorem Ipsum Lorem </tspan></tspan><tspan style="visibility:hidden" x="14.515625" y="83.309052"><tspan dx="0 2.3626463 4.5454588 3.7796144 4.5206547 6.6166496" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Ipsum </tspan></tspan></text>
+                  <path style="opacity:0.790518;mix-blend-mode:lighten;fill:url(#linearGradient1754);fill-opacity:1;stroke:#810d71;stroke-width:0.237849;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.785213" d="m -215.06035,29.74306 c 15.96546,-16.38929 35.77762,-29.51556598 57.95819,-35.1304412 2.64654,-0.6699558 5.31969,-1.2323576 8.00603,-1.718778 25.07145,-4.5397328 51.887366,-2.1503771 74.36464,9.8479102 18.098738,9.661041 32.857875,25.380248 41.55783,43.960097 8.146955,17.398849 10.992334,37.104892 9.02827,56.216022 -3.035344,29.53511 -17.770732,57.76252 -40.47056,76.90028 -14.375905,12.12003 -31.966516,20.66114 -50.59875,23.1913 -14.25399,1.93562 -29.13959,0.27847 -42.16395,-5.82799 -7.52165,-3.52652 -14.38971,-8.52726 -19.78347,-14.84539 -6.08134,-7.12354 -10.15224,-15.70456 -14.12877,-24.18482 -3.97653,-8.48026 -7.99656,-17.07789 -13.99941,-24.2677 -0.96242,-1.15272 -1.97235,-2.26471 -2.97672,-3.38106 -6.25361,-6.95084 -12.32974,-14.12004 -17.24276,-22.07517 -4.91301,-7.95513 -8.65158,-16.760245 -9.8833,-26.028728 -2.08355,-15.678422 3.2949,-31.858298 12.99533,-44.350524 2.2668,-2.919189 4.75842,-5.657568 7.3374,-8.305008 z" id="path362-5" inkscape:original-d="m -215.06035,29.74306 c 2.44554,-2.768577 38.63898,-23.420054 57.95819,-35.1304412 19.31916,-11.7103918 5.3376,-1.145614 8.00603,-1.718778 2.66845,-0.573164 49.57667,6.56551122 74.36464,9.8479102 24.78798,3.282392 27.70547,29.306972 41.55783,43.960097 13.85234,14.653125 6.01903,37.477605 9.02827,56.216022 3.00921,18.73843 -26.98014,51.2671 -40.47056,76.90028 -13.49041,25.6332 -33.73228,15.4611 -50.59875,23.1913 -16.86653,7.73018 -28.10907,-3.88509 -42.16395,-5.82799 -14.05487,-1.94287 -13.18873,-9.89669 -19.78347,-14.84539 -6.59472,-4.94872 -18.7519,-32.30145 -28.12818,-48.45252 -9.3763,-16.15105 -1.98424,-2.25379 -2.97672,-3.38106 -0.99248,-1.12726 -18.08382,-32.069009 -27.12606,-48.103898 -9.04228,-16.034869 8.66379,-29.566769 12.99533,-44.350524 4.33154,-14.783741 4.89184,-5.536427 7.3374,-8.305008 z" inkscape:path-effect="#path-effect1548"/>
+                </g>
+               
+              </svg> -->
+              <!-- <div id="login-button" >
+    
+                  {% if not user.is_authenticated %}
+    
+                  <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="{% url 'account_login' %}" class="btn btn-outline-white" >Login|Signup</a></p>
+                  {% endif %}
+              </div>
+            </div> -->
+          </div>
+        </div>
+    
+      </section><!-- End Hero -->
+<div class="container">
+      
+
+
+    <div class="pager">
+      
+          
+      
+              
+        
+    </div>
+    
+    
+    
+        
+    
+        <div class="bigspacer"></div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="head">
+                    <a href="/blog/Mind-your-language.html" class="off">Mind Your Language</a>
+                </div>
+                <div class="smallnote">
+                    29 Jan 2019
+                    
+                    by <a class="off" href="/team/Raghav-Kapoor.html">Raghav</a>
+                                    
+                </div>	
+            </div>
+            <div class="col-md-8">		
+                <div style="height:5px;"></div>			
+                <div class="post">
+                    This blog is about our research project where we studied abuse and offense detection in the code switched pair of Hindi and English(i.e., Hinglish) under the expert guidance of Dr. Rajiv Ratn Shah, Dr. Roger Zimmermann, and Dr. Ponnurangam Kumaraguru.
+                </div>
+            </div>			
+            <div class="col-md-1"></div>
+        </div>		
+    
+    
+    
+        
+    
+        <div class="bigspacer"></div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="head">
+                    <a href="/blog/KiKI-challenge.html" class="off">Kiki Challenge Dataset Release</a>
+                </div>
+                <div class="smallnote">
+                    26 Sep 2018
+                    
+                    by <a class="off" href="/team/Raghav-Kapoor.html">Raghav</a>
+                                    
+                </div>	
+            </div>
+            <div class="col-md-8">		
+                <div style="height:5px;"></div>			
+                <div class="post">
+                    One of the most famous online social media challenge these days is the Kiki challenge. Also known as “In My Feelings Challenge” or “Do The Shiggy”, it originated when a comedian Shiggy released a video, dancing on the road to the tunes of this song by Drake. Since then people have considered it to be a challenge in which they need to get down of a moving car, and dance alongside the traffic risking their lives and getting their video captured.
+                </div>
+            </div>			
+            <div class="col-md-1"></div>
+        </div>		
+    
+    
+    
+    <!-- <div class="bigspacer"></div>	
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <a class="off" href="//archive/">
+                <div class="smallhead">Archive</div>
+                <i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
+            </a>
+        </div>
+    </div> -->
+    <div class="bigspacer"></div>
+    
+       </div >
+
+</body>
+</html>

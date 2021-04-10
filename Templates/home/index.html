@@ -1,0 +1,2994 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>SoftLand Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: SoftLand - v4.1.0
+  * Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container-fluid mx-3 mr-5 d-flex  align-items-center ">
+      <div class="logo mr-2 float-left">
+        <img src="{% static  'img/midas-logo.png' %}" alt="logo" data-aos="fade-right" data-aos-delay="200">
+
+      </div>
+      <div class="logo  float-left">
+        <h1><a href="index.html"> Midas IIITD</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="{% static 'img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+      <div class="d-flex align-items-end  ">
+        <nav id="navbar" class="navbar d-flex align-items-end ">
+          <ul>
+            <!-- <li><a class="active " href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li> -->
+            <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a></li>
+            <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down"></i></a></li>
+            <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a></li>
+            <li class="dropdown"><a href="#"><span>Blog</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="{% url 'blog' %}">Blogs</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Papers</a></li>
+             
+            </ul>
+          </li>
+            <li class="dropdown"><a href="#"><span>Contact</span> <i class="bi bi-chevron-down"></i></a>
+              <!-- <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul> -->
+            </li>
+            <!-- <li><a href="contact.html">Contact Us</a></li> -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle float-right " style="position: relative; left: 50px;"></i>
+        </nav><!-- .navbar -->
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section class="hero-section" id="hero">
+
+    <div class="wave">
+
+      <svg width="100%" height="355px" viewBox="0 0 1920 355" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#FFFFFF">
+            <path
+              d="M0,439.134243 C175.04074,464.89273 327.944386,477.771974 458.710937,477.771974 C654.860765,477.771974 870.645295,442.632362 1205.9828,410.192501 C1429.54114,388.565926 1667.54687,411.092417 1920,477.771974 L1920,757 L1017.15166,757 L0,757 L0,439.134243 Z"
+              id="Path"></path>
+          </g>
+        </g>
+      </svg>
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <!-- <div class="col-7 hero-text-image">
+          <div class="row"> -->
+            <!-- <div class="col-lg-8 text-center text-lg-start">
+              <h1 data-aos="fade-right">Promote Your App with SoftLand</h1>
+              <p class="mb-5" data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit.</p>
+              {% if not user.is_authenticated %}
+
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="{% url 'account_login' %}"
+                  class="btn btn-outline-white">Login|Signup</a></p>
+              {% endif %}
+            </div> -->
+            
+            <div class="col-lg-4 ">
+              <!-- <img src="{% static 'img/phone_1.png' %}" alt="Image" class="phone-1" data-aos="fade-right"> -->
+              <img src="{% static  'img/home-pic.jpg' %}" alt="Image" id="home-pic" data-aos="fade-right"
+                data-aos-delay="200">
+            </div>
+                    
+           
+          <!-- </div>
+        </div> -->
+        <div class="col-5 " id="blob">
+          <?xml version="1.0" encoding="UTF-8"?>
+          <svg width="190.53mm" height="114.26mm" version="1.1" viewBox="40 0 212.53 213.26"
+            xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+              <linearGradient id="linearGradient1754" x1="133.45" x2="166.11" y1="-3.7942" y2="209.7"
+                gradientTransform="matrix(.88808 0 0 .90711 -240.01 -3.8279)" gradientUnits="userSpaceOnUse">
+                <stop style="stop-color:#f051db;stop-opacity:.58552" offset="0" />
+                <stop style="stop-color:#1b00a6" offset="1" />
+              </linearGradient>
+            </defs>
+
+            <g xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(235.95738,9.3697016)">
+              <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:12.0921px;line-height:1.05;font-family:sans-serif;letter-spacing:-1.12183px;word-spacing:-0.0079375px;opacity:0.790518;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.302302" x="-175.06377" y="44.451038" id="text1305" transform="scale(0.94015013,1.0636599)"><tspan xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:role="line" id="tspan1303" x="-175.06377" y="44.451038" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.7965px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.302302">Web App</tspan><tspan xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" sodipodi:role="line" x="-175.06377" y="71.537361" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.7965px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;stroke-width:0.302302" id="tspan1307">Task</tspan></text>
+              <text xml:space="preserve" id="text1332" style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1334-3);opacity:0.790518;fill:#ffffff;fill-opacity:1;stroke:none;" transform="translate(-178.65641,40.264977)"><tspan x="14.515625" y="53.20163"><tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Lorem Ipsum Lorem Ipsum Lorem </tspan></tspan><tspan x="14.515625" y="66.430756"><tspan style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Lore Ipsum Lorem Ipsum Lorem </tspan></tspan><tspan style="visibility:hidden" x="14.515625" y="83.309052"><tspan dx="0 2.3626463 4.5454588 3.7796144 4.5206547 6.6166496" style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">Ipsum </tspan></tspan></text>
+              <path style="opacity:0.790518;mix-blend-mode:lighten;fill:url(#linearGradient1754);fill-opacity:1;stroke:#810d71;stroke-width:0.237849;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.785213" d="m -215.06035,29.74306 c 15.96546,-16.38929 35.77762,-29.51556598 57.95819,-35.1304412 2.64654,-0.6699558 5.31969,-1.2323576 8.00603,-1.718778 25.07145,-4.5397328 51.887366,-2.1503771 74.36464,9.8479102 18.098738,9.661041 32.857875,25.380248 41.55783,43.960097 8.146955,17.398849 10.992334,37.104892 9.02827,56.216022 -3.035344,29.53511 -17.770732,57.76252 -40.47056,76.90028 -14.375905,12.12003 -31.966516,20.66114 -50.59875,23.1913 -14.25399,1.93562 -29.13959,0.27847 -42.16395,-5.82799 -7.52165,-3.52652 -14.38971,-8.52726 -19.78347,-14.84539 -6.08134,-7.12354 -10.15224,-15.70456 -14.12877,-24.18482 -3.97653,-8.48026 -7.99656,-17.07789 -13.99941,-24.2677 -0.96242,-1.15272 -1.97235,-2.26471 -2.97672,-3.38106 -6.25361,-6.95084 -12.32974,-14.12004 -17.24276,-22.07517 -4.91301,-7.95513 -8.65158,-16.760245 -9.8833,-26.028728 -2.08355,-15.678422 3.2949,-31.858298 12.99533,-44.350524 2.2668,-2.919189 4.75842,-5.657568 7.3374,-8.305008 z" id="path362-5" inkscape:original-d="m -215.06035,29.74306 c 2.44554,-2.768577 38.63898,-23.420054 57.95819,-35.1304412 19.31916,-11.7103918 5.3376,-1.145614 8.00603,-1.718778 2.66845,-0.573164 49.57667,6.56551122 74.36464,9.8479102 24.78798,3.282392 27.70547,29.306972 41.55783,43.960097 13.85234,14.653125 6.01903,37.477605 9.02827,56.216022 3.00921,18.73843 -26.98014,51.2671 -40.47056,76.90028 -13.49041,25.6332 -33.73228,15.4611 -50.59875,23.1913 -16.86653,7.73018 -28.10907,-3.88509 -42.16395,-5.82799 -14.05487,-1.94287 -13.18873,-9.89669 -19.78347,-14.84539 -6.59472,-4.94872 -18.7519,-32.30145 -28.12818,-48.45252 -9.3763,-16.15105 -1.98424,-2.25379 -2.97672,-3.38106 -0.99248,-1.12726 -18.08382,-32.069009 -27.12606,-48.103898 -9.04228,-16.034869 8.66379,-29.566769 12.99533,-44.350524 4.33154,-14.783741 4.89184,-5.536427 7.3374,-8.305008 z" inkscape:path-effect="#path-effect1548"/>
+            </g>
+           
+          </svg>
+          <div id="login-button" >
+
+              {% if not user.is_authenticated %}
+
+              <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500"><a href="{% url 'account_login' %}" class="btn btn-outline-white" >Login|Signup</a></p>
+              {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <div class="container">
+      
+
+    <div class="bigspacer"></div>
+    
+    <div class="bigtitle text-center">Faculty</div>
+    <div class="bigspacer"></div>
+    
+    
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <!-- 
+              <a class="pull-left" href="http://faculty.iiitd.ac.in/~rajivratn/">
+             -->
+            <a class="pull-left" href="/team/rajiv-ratn-shah.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/rajiv.jpeg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/rajiv-ratn-shah.html" class="off">Rajiv Ratn Shah</a></div>
+            <p class="note">Assistant Professor</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+     <!-- close last open row -->
+    </div><div class="bigspacer"></div>
+    
+    
+    <!-- 
+    
+    
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Osaid.html">
+            <img class="media-object member-photo" src="/assets/images/team/osaid.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Osaid.html" class="off">Osaid Rehman Nasir</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/hitkul.html">
+            <img class="media-object member-photo" src="/assets/images/team/hitkul.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/hitkul.html" class="off">Hitkul</a></div>
+            <p class="note">PhD Scholar</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/laiba.html">
+            <img class="media-object member-photo" src="/assets/images/team/laiba.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/laiba.html" class="off">Laiba Mehnaz</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/rajiv-ratn-shah.html">
+            <img class="media-object member-photo" src="/assets/images/team/rajiv.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/rajiv-ratn-shah.html" class="off">Rajiv Ratn Shah</a></div>
+            <p class="note">Assistant Professor</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/shivangi.html">
+            <img class="media-object member-photo" src="/assets/images/team/shivangi.png">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/shivangi.html" class="off">Shivangi Singhal</a></div>
+            <p class="note">PhD Scholar</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/yaman.html">
+            <img class="media-object member-photo" src="/assets/images/team/yaman.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/yaman.html" class="off">Yaman</a></div>
+            <p class="note">PhD Scholar</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/meghna-p-ayyar.html">
+            <img class="media-object member-photo" src="/assets/images/team/meghna_ayyar_profile.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/meghna-p-ayyar.html" class="off">Meghna P Ayyar</a></div>
+            <p class="note">Master's Student Erasmus Mundus IPCV</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/ramit-sawhney.html">
+            <img class="media-object member-photo" src="/assets/images/team/IMG_9517.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/ramit-sawhney.html" class="off">Ramit Sawhney</a></div>
+            <p class="note">Software Developer</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/sarthak-anand.html">
+            <img class="media-object member-photo" src="/assets/images/team/sarthak.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/sarthak-anand.html" class="off">Sarthak Anand</a></div>
+            <p class="note">Research Assistant</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/karmanya-aggarwal.html">
+            <img class="media-object member-photo" src="/assets/images/team/karm.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/karmanya-aggarwal.html" class="off">Karmanya Aggarwal</a></div>
+            <p class="note">Developer</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/hritwik.html">
+            <img class="media-object member-photo" src="/assets/images/team/hritwik-dutta.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/hritwik.html" class="off">Hritwik Dutta</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/namrata-mukhija.html">
+            <img class="media-object member-photo" src="/assets/images/team/Namrata-Mukhija.JPG">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/namrata-mukhija.html" class="off">Namrata Mukhija</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/vedant-bhatia.html">
+            <img class="media-object member-photo" src="/assets/images/team/vedant.JPG">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/vedant-bhatia.html" class="off">Vedant Bhatia</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Apoorv-Bhardwaj.html">
+            <img class="media-object member-photo" src="/assets/images/team/apoorv_image.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Apoorv-Bhardwaj.html" class="off">Apoorv Bhardwaj</a></div>
+            <p class="note">Research Assistant</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/mansi-agarwal.html">
+            <img class="media-object member-photo" src="/assets/images/team/mansi-agarwal.png">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/mansi-agarwal.html" class="off">Mansi Agarwal</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Shashwat-Uttam.html">
+            <img class="media-object member-photo" src="/assets/images/team/profile.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Shashwat-Uttam.html" class="off">Shashwat Uttam</a></div>
+            <p class="note">B. Tech</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Nilay-Shrivastava.html">
+            <img class="media-object member-photo" src="/assets/images/team/Nilay.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Nilay-Shrivastava.html" class="off">Nilay Shrivastava</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Akash-Gautam.html">
+            <img class="media-object member-photo" src="/assets/images/team/Akash_pic.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Akash-Gautam.html" class="off">Akash Gautam</a></div>
+            <p class="note">Research Assistant</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Kush-Misra.html">
+            <img class="media-object member-photo" src="/assets/images/team/imageKush.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Kush-Misra.html" class="off">Kush Misra</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Arijit-Ghosh-Chowdhury.html">
+            <img class="media-object member-photo" src="/assets/images/team/arijit-pic.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Arijit-Ghosh-Chowdhury.html" class="off">Arijit Ghosh Chowdhury</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/shagun-uppal.html">
+            <img class="media-object member-photo" src="/assets/images/team/shagun.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/shagun-uppal.html" class="off">Shagun Uppal</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Gyanesh-Anand.html">
+            <img class="media-object member-photo" src="/assets/images/team/gyanesh_anand.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Gyanesh-Anand.html" class="off">Gyanesh Anand</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/pakhi.html">
+            <img class="media-object member-photo" src="/assets/images/team/pakhi.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/pakhi.html" class="off">Pakhi Bamdev</a></div>
+            <p class="note">Research Assistant</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/abhishek-srivastava.html">
+            <img class="media-object member-photo" src="/assets/images/team/abhishek18124.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/abhishek-srivastava.html" class="off">Abhishek Srivastava</a></div>
+            <p class="note">M.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Avinash_Swaminathan.html">
+            <img class="media-object member-photo" src="/assets/images/team/Avinash_Swaminathan.jpeg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Avinash_Swaminathan.html" class="off">Avinash Swaminathan</a></div>
+            <p class="note">Research Intern</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Suril-Mehta.html">
+            <img class="media-object member-photo" src="/assets/images/team/suril.png">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Suril-Mehta.html" class="off">Suril Mehta</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/pranay-raj-anand.html">
+            <img class="media-object member-photo" src="/assets/images/team/PranayRajAnand_MT18079_MIDAS.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/pranay-raj-anand.html" class="off">Pranay Raj Anand</a></div>
+            <p class="note">M.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/suhavi.html">
+            <img class="media-object member-photo" src="/assets/images/team/Suhavi.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/suhavi.html" class="off">Suhavi</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Ashwat-Kumar.html">
+            <img class="media-object member-photo" src="/assets/images/team/ashwat.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Ashwat-Kumar.html" class="off">Ashwat Kumar</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Nishtha-Ahuja.html">
+            <img class="media-object member-photo" src="/assets/images/team/Nishtha_2017354_midas.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Nishtha-Ahuja.html" class="off">Nishtha Ahuja</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/prakhar.html">
+            <img class="media-object member-photo" src="/assets/images/team/Prakhar_2017306">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/prakhar.html" class="off">Prakhar Goel</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Himanshu-SIngh.html">
+            <img class="media-object member-photo" src="/assets/images/team/HimanshuSingh_2017291">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Himanshu-SIngh.html" class="off">Himanshu Singh</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Ritwik-Mishra.html">
+            <img class="media-object member-photo" src="/assets/images/team/2272020215503.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Ritwik-Mishra.html" class="off">Ritwik Mishra</a></div>
+            <p class="note">PhD Student</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Mohit-Sharma.html">
+            <img class="media-object member-photo" src="/assets/images/team/4272020101919.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Mohit-Sharma.html" class="off">Mohit Sharma</a></div>
+            <p class="note">PhD Scholar</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Rajaswa-Patil.html">
+            <img class="media-object member-photo" src="/assets/images/team/762020235341.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Rajaswa-Patil.html" class="off">Rajaswa Patil</a></div>
+            <p class="note">Research Assistant</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Arnav-Wadhwa.html">
+            <img class="media-object member-photo" src="/assets/images/team/772020171821.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Arnav-Wadhwa.html" class="off">Arnav Wadhwa</a></div>
+            <p class="note">Researcher</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Mehar-Bhatia.html">
+            <img class="media-object member-photo" src="/assets/images/team/77202012503.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Mehar-Bhatia.html" class="off">Mehar Bhatia</a></div>
+            <p class="note">Research Assistant</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Sharad-Chitlangia.html">
+            <img class="media-object member-photo" src="/assets/images/team/77202002834.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Sharad-Chitlangia.html" class="off">Sharad Chitlangia</a></div>
+            <p class="note">Research Intern</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Somesh-Kumar-Singh.html">
+            <img class="media-object member-photo" src="/assets/images/team/782020233007.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Somesh-Kumar-Singh.html" class="off">Somesh Kumar Singh</a></div>
+            <p class="note">Undergraduate</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Zaki-Mustafa.html">
+            <img class="media-object member-photo" src="/assets/images/team/7112020120603.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Zaki-Mustafa.html" class="off">Zaki Mustafa</a></div>
+            <p class="note">M.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Aradhya-Mathur.html">
+            <img class="media-object member-photo" src="/assets/images/team/7142020150552.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Aradhya-Mathur.html" class="off">Aradhya Mathur</a></div>
+            <p class="note">Phd Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Shivam-Agarwal.html">
+            <img class="media-object member-photo" src="/assets/images/team/7232020210844.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Shivam-Agarwal.html" class="off">Shivam Agarwal</a></div>
+            <p class="note">Researcher</p>
+            </div>
+        </div>
+        </div>	  
+       
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/Sreyan-Ghosh.html">
+            <img class="media-object member-photo" src="/assets/images/team/7312020123025.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/Sreyan-Ghosh.html" class="off">Sreyan Ghosh</a></div>
+            <p class="note">Remote Research Collaborator</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+            <a class="pull-left" href="/team/hemant-yadav.html">
+            <img class="media-object member-photo" src="/assets/images/team/992020202841.jpg">
+            </a>
+             <div class="media-body">
+            <div class="head media-heading member-name"><a href="/team/hemant-yadav.html" class="off">hemant yadav</a></div>
+            <p class="note">PhD Scholar</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+     
+    </div><div class="bigspacer"></div>
+     -->
+    
+    <div class="bigspacer"></div>
+    <!-- <hr/>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <img class="team-photo" src="/assets/images/team/drummond-lab-20170726.png"/>
+      </div>
+    </div>
+    
+    <div class="bigspacer"></div>
+    <hr/> -->
+    
+    
+    <div class="bigtitle text-center">Graduate Students</div>
+    <div class="bigspacer"></div>
+    
+    
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://sites.google.com/d/1zuzZyHnTJ03nzSbl3pjBsAgZpRcvvIe5/p/1o8xqNTtC7xXONe3gaiPNCm0220WI_cdL/edit">
+             -->
+            <a class="pull-left" href="/team/hemant-yadav.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/992020202841.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://sites.google.com/d/1zuzZyHnTJ03nzSbl3pjBsAgZpRcvvIe5/p/1o8xqNTtC7xXONe3gaiPNCm0220WI_cdL/edit" class="off"><div class="head media-heading member-name">hemant yadav</div></a>
+                
+            <p class="note">PhD Scholar
+            
+            </p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://mohitsharma29.github.io/">
+             -->
+            <a class="pull-left" href="/team/Mohit-Sharma.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/4272020101919.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://mohitsharma29.github.io/" class="off"><div class="head media-heading member-name">Mohit Sharma</div></a>
+                
+            <p class="note">PhD Scholar
+            
+            </p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Ritwik-Mishra.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/2272020215503.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/Ritwik-Mishra.html" class="off">Ritwik Mishra</a></div>
+                
+            <p class="note">PhD Student
+            
+            , Co-supervised by Ponnurangam Kumaraguru
+            
+            
+            , UGC JRF Fellowship
+            </p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://sites.google.com/view/yaman-kumar/home">
+             -->
+            <a class="pull-left" href="/team/yaman.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/yaman.jpeg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://sites.google.com/view/yaman-kumar/home" class="off"><div class="head media-heading member-name">Yaman</div></a>
+                
+            <p class="note">PhD Scholar
+            
+            
+            , Google PhD Fellowship
+            </p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/shivangi.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/shivangi.png">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/shivangi.html" class="off">Shivangi Singhal</a></div>
+                
+            <p class="note">PhD Scholar
+            
+            , Co-supervised by Ponnurangam Kumaraguru
+            
+            
+            , TCS PhD Fellowship
+            </p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/hitkul.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/hitkul.jpeg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/hitkul.html" class="off">Hitkul</a></div>
+                
+            <p class="note">PhD Scholar
+            
+            , Co-supervised by Ponnurangam Kumaraguru
+            
+            
+            , TCS PhD Fellowship
+            </p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+    
+    
+    
+    <div class="bigspacer"></div>
+    
+    
+    
+    
+    
+    
+    <div class="bigtitle text-center">Post-Graduate Students</div>
+    <div class="bigspacer"></div>
+    
+    
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="http://www.zakimustafa.com/">
+             -->
+            <a class="pull-left" href="/team/Zaki-Mustafa.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/7112020120603.jpg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/Zaki-Mustafa.html" class="off">Zaki Mustafa</a></div>
+            <p class="note">M.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/pranay-raj-anand.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/PranayRajAnand_MT18079_MIDAS.jpg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/pranay-raj-anand.html" class="off">Pranay Raj Anand</a></div>
+            <p class="note">M.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/abhishek-srivastava.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/abhishek18124.jpeg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/abhishek-srivastava.html" class="off">Abhishek Srivastava</a></div>
+            <p class="note">M.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+    
+    
+    
+    <div class="bigspacer"></div>
+    
+    
+    
+    
+    <div class="bigtitle text-center">Undergraduate Students</div>
+    <div class="bigspacer"></div>
+    
+    
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://www.linkedin.com/in/himanshu-singh-b028a4151/">
+             -->
+            <a class="pull-left" href="/team/Himanshu-SIngh.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/HimanshuSingh_2017291">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/Himanshu-SIngh.html" class="off">Himanshu Singh</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/prakhar.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/Prakhar_2017306">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/prakhar.html" class="off">Prakhar Goel</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Ashwat-Kumar.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/ashwat.jpg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/Ashwat-Kumar.html" class="off">Ashwat Kumar</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="www.linkedin.com/in/suhavi-b-7268b6171">
+             -->
+            <a class="pull-left" href="/team/suhavi.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/Suhavi.jpg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/suhavi.html" class="off">Suhavi</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://www.linkedin.com/in/gyaneshanand/">
+             -->
+            <a class="pull-left" href="/team/Gyanesh-Anand.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/gyanesh_anand.jpg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/Gyanesh-Anand.html" class="off">Gyanesh Anand</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/shagun-uppal.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/shagun.jpg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/shagun-uppal.html" class="off">Shagun Uppal</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Akash-Gautam.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/Akash_pic.jpg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/Akash-Gautam.html" class="off">Akash Gautam</a></div>
+            <p class="note">Research Assistant</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/vedant-bhatia.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/vedant.JPG">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/vedant-bhatia.html" class="off">Vedant Bhatia</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Osaid.html">
+            <img class="media-object member-photo" height="60" width="170" src="/assets/images/team/osaid.jpeg">
+            </a>
+             <div class="media-body">
+                <div class="head media-heading member-name"><a href="/team/Osaid.html" class="off">Osaid Rehman Nasir</a></div>
+            <p class="note">B.Tech Student</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+    
+    
+    
+    <div class="bigspacer"></div>
+    
+    
+    
+    <div class="bigtitle text-center">Interns/ Research Assistants</div>
+    <div class="bigspacer"></div>
+    
+    
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://www.linkedin.com/in/shivam-agarwal-136833180/">
+             -->
+            <a class="pull-left" href="/team/Shivam-Agarwal.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/7232020210844.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://www.linkedin.com/in/shivam-agarwal-136833180/" class="off"><div class="head media-heading member-name">Shivam Agarwal</div></a>
+                
+            <p class="note">Researcher, Manipal Institute of Technology, Manipal, India</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Aradhya-Mathur.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/7142020150552.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/Aradhya-Mathur.html" class="off">Aradhya Mathur</a></div>
+                
+            <p class="note">Phd Student, IIITD</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://someshsingh22.github.io/">
+             -->
+            <a class="pull-left" href="/team/Somesh-Kumar-Singh.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/782020233007.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://someshsingh22.github.io/" class="off"><div class="head media-heading member-name">Somesh Kumar Singh</div></a>
+                
+            <p class="note">Undergraduate, BITS Pilani</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://Sharad24.github.io">
+             -->
+            <a class="pull-left" href="/team/Sharad-Chitlangia.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/77202002834.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://Sharad24.github.io" class="off"><div class="head media-heading member-name">Sharad Chitlangia</div></a>
+                
+            <p class="note">Research Intern, BITS Pilani</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Mehar-Bhatia.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/77202012503.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/Mehar-Bhatia.html" class="off">Mehar Bhatia</a></div>
+                
+            <p class="note">Research Assistant, IIIT Delhi</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Arnav-Wadhwa.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/772020171821.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/Arnav-Wadhwa.html" class="off">Arnav Wadhwa</a></div>
+                
+            <p class="note">Researcher, MIDAS@IIITD</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://sites.google.com/view/rajaswa/">
+             -->
+            <a class="pull-left" href="/team/Rajaswa-Patil.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/762020235341.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://sites.google.com/view/rajaswa/" class="off"><div class="head media-heading member-name">Rajaswa Patil</div></a>
+                
+            <p class="note">Research Assistant, BITS Pilani (Goa Campus)</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Nishtha-Ahuja.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/Nishtha_2017354_midas.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/Nishtha-Ahuja.html" class="off">Nishtha Ahuja</a></div>
+                
+            <p class="note">B.Tech Student, IIIT Delhi</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/pakhi.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/pakhi.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/pakhi.html" class="off">Pakhi Bamdev</a></div>
+                
+            <p class="note">Research Assistant, IIIT-Delhi</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Kush-Misra.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/imageKush.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/Kush-Misra.html" class="off">Kush Misra</a></div>
+                
+            <p class="note">B.Tech Student, NSIT</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://euler16.github.io/">
+             -->
+            <a class="pull-left" href="/team/Nilay-Shrivastava.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/Nilay.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://euler16.github.io/" class="off"><div class="head media-heading member-name">Nilay Shrivastava</div></a>
+                
+            <p class="note">B.Tech Student, NSIT</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/mansi-agarwal.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/mansi-agarwal.png">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/mansi-agarwal.html" class="off">Mansi Agarwal</a></div>
+                
+            <p class="note">B.Tech Student, DTU</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/Apoorv-Bhardwaj.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/apoorv_image.jpg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/Apoorv-Bhardwaj.html" class="off">Apoorv Bhardwaj</a></div>
+                
+            <p class="note">Research Assistant, DTU</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/namrata-mukhija.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/Namrata-Mukhija.JPG">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/namrata-mukhija.html" class="off">Namrata Mukhija</a></div>
+                
+            <p class="note">B.Tech Student, NSIT</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/hritwik.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/hritwik-dutta.jpeg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/hritwik.html" class="off">Hritwik Dutta</a></div>
+                
+            <p class="note">B.Tech Student, NSIT</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="http://www.calmdownkarm.com/">
+             -->
+            <a class="pull-left" href="/team/karmanya-aggarwal.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/karm.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="http://www.calmdownkarm.com/" class="off"><div class="head media-heading member-name">Karmanya Aggarwal</div></a>
+                
+            <p class="note">Developer, Gramener</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://sites.google.com/view/sarthakanand/">
+             -->
+            <a class="pull-left" href="/team/sarthak-anand.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/sarthak.jpeg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://sites.google.com/view/sarthakanand/" class="off"><div class="head media-heading member-name">Sarthak Anand</div></a>
+                
+            <p class="note">Research Assistant, IIIT-Delhi</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              <a class="pull-left" href="https://sites.google.com/iiitd.ac.in/ramitsawhney/">
+             -->
+            <a class="pull-left" href="/team/ramit-sawhney.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/IMG_9517.jpg">
+            </a>
+             <div class="media-body">
+              
+              <a href="https://sites.google.com/iiitd.ac.in/ramitsawhney/" class="off"><div class="head media-heading member-name">Ramit Sawhney</div></a>
+                
+            <p class="note">Software Developer, Tower Research Capital</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+                    <!-- 
+              
+             -->
+            <a class="pull-left" href="/team/laiba.html">
+            <img class="media-object member-photo"  height="60" width="170" src="/assets/images/team/laiba.jpeg">
+            </a>
+             <div class="media-body">
+              
+              <div class="head media-heading member-name"><a href="/team/laiba.html" class="off">Laiba Mehnaz</a></div>
+                
+            <p class="note">B.Tech Student, DTU</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+     <!-- close last open row -->
+    </div><div class="bigspacer"></div>
+    
+    
+    
+    <div class="bigspacer"></div>
+    
+    
+    <div class="bigtitle text-center">Collaborator</div>
+    <div class="bigspacer"></div>
+    
+    
+    
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                Mr. Vineet Malhotra
+                
+            </div>
+            <p class="note">Engineering Manager and Financial AI collaborator, IIIT Delhi</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://www.linkedin.com/in/sreyan-ghosh/" class="off">Sreyan Ghosh</a>
+                
+            </div>
+            <p class="note">Remote Research Collaborator, Software Engineer at Cisco Systems,Bangalore</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://scholar.google.com.sg/citations?user=TRfTdBAAAAAJ&amp;hl=en" class="off">Dr. Yifang Yin</a>
+                
+            </div>
+            <p class="note">Research Fellow, National University of Singapore, Singapore</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="http://research.nii.ac.jp/~yiyu/" class="off">Dr. Yi Yu</a>
+                
+            </div>
+            <p class="note">Assistant Professor, National Institute of Informatics, Japan</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://sites.google.com/site/tanmoychakra88/" class="off">Dr. Tanmoy Chakraborty</a>
+                
+            </div>
+            <p class="note">Assistant Professor, IIIT-Delhi</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://www.arkanalabs.com/doctor/shree-g-sharma/" class="off">Dr. Shree Gopal Sharma</a>
+                
+            </div>
+            <p class="note">Nephropathologist, Arkana Laboratories, USA</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="http://research.nii.ac.jp/~satoh/" class="off">Dr. Shin’ichi Satoh</a>
+                
+            </div>
+            <p class="note">Professor, National Institute of Informatics, Japan</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://www.comp.nus.edu.sg/~rogerz/roger.html" class="off">Dr. Roger Zimmermann</a>
+                
+            </div>
+            <p class="note">Associate Professor, National University of Singapore, Singapore</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://www.iiitd.ac.in/pk" class="off">Dr. Ponnurangam Kumaraguru</a>
+                
+            </div>
+            <p class="note">Associate Professor, IIIT-Delhi</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://scholar.google.co.in/citations?user=kSxzIsIAAAAJ&amp;hl=en" class="off">Dr. Omprakash Kaiwartya</a>
+                
+            </div>
+            <p class="note">Lecturer, Nottingham Trent University, U.K.</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://www.uts.edu.au/staff/mukesh.prasad" class="off">Dr. Mukesh Prasad</a>
+                
+            </div>
+            <p class="note">Lecturer, University of Technology Sydney, Australia</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="http://www.mysmu.edu/faculty/jingjiang/" class="off">Dr. Jing Jiang</a>
+                
+            </div>
+            <p class="note">Associate Professor, Singapore Management University, Singapore</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="https://www.linkedin.com/in/debanjanmahata" class="off">Dr. Debanjan Mahata</a>
+                
+            </div>
+            <p class="note">Research Scientist, Bloomberg LP, USA</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="http://faculty.iiitd.ac.in/~subramanyam/" class="off">Dr. A.V. Subramanyam</a>
+                
+            </div>
+            <p class="note">Assistant Professor, IIIT-Delhi</p>
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-4 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="head media-heading member-name">
+              
+                <a href="http://sporia.info/" class="off">Dr. Soujanya Poria</a>
+                
+            </div>
+            <p class="note">Research Scientist, Nanyang Technological University, Singapore</p>
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+    
+    
+    
+    <div class="bigspacer"></div>
+    
+    
+    
+    <div class="bigtitle text-center">Alumni</div>
+    <div class="bigspacer"></div>
+    
+    <!--
+      Changed modulo index to 6 on line 301 to fit more members
+      Changes to col-md-2 to make alumni names small on line 305
+      Removed Head class from div on line 308
+    -->
+    
+    
+    
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Shubham-Thakral.html" class="off">Shubham Thakral</a></div>
+            <!-- <p class="note">B. Tech. Student, IIITD</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/yashvardhan.html" class="off">Yashvardhan Singh</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/siddharth-dhawan.html" class="off">Siddharth Dhawan</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Rajwinder-Singh.html" class="off">Rajwinder Singh</a></div>
+            <!-- <p class="note">Research Assistant, MIDAS@IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Anushka-Bhandari.html" class="off">Anushka Bhandari</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/vaibhav-varshney.html" class="off">Vaibhav Varshney</a></div>
+            <!-- <p class="note">M.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/viresh-gupta.html" class="off">Viresh Gupta</a></div>
+            <!-- <p class="note">B.Tech Student, Indraprastha Institute of Information Technology Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/palash-aggrawal.html" class="off">Palash Aggrawal</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Harsh-Shrivastava.html" class="off">Harsh Shrivastava</a></div>
+            <!-- <p class="note">B.Tech Student, Rustamji Institute of Technology, BSF Academy.</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/abhishek-gupta.html" class="off">Abhishek Gupta</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/V-N-S-Rama-Krishna-Pinnimty.html" class="off">V N S Rama Krishna Pinnimty</a></div>
+            <!-- <p class="note">B.Tech Student, International Institute of Information Technology, Bhubaneswar</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/himani-sharma.html" class="off">Himani Sharma</a></div>
+            <!-- <p class="note">M.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/prateek.html" class="off">Prateek Rawat</a></div>
+            <!-- <p class="note">M.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/pallavi.html" class="off">Pallavi S. Rawat</a></div>
+            <!-- <p class="note">M.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/mehak-piplani.html" class="off">Mehak Piplani</a></div>
+            <!-- <p class="note">B. Tech, IIIT Vadodara</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Puneet.html" class="off">Puneet Mathur</a></div>
+            <!-- <p class="note">Research Assistant, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Astitwa-Saxena.html" class="off">Astitwa Saxena</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/nupur-baghel.html" class="off">Nupur Baghel</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Rajat-Maheshwari.html" class="off">Rajat Maheshwari</a></div>
+            <!-- <p class="note">B.Tech Student, USICT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Shashwat-Aggarwal.html" class="off">Shashwat Aggarwal</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/rajat-bansal.html" class="off">Rajat Bansal</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/shivli-agrawal.html" class="off">Shivli Agrawal</a></div>
+            <!-- <p class="note">SDE, Microsoft</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Yukit-girdhar.html" class="off">Yukti Girdhar</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/paavini-nanda.html" class="off">Paavini Nanda</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/dhruva-sahrawat.html" class="off">Dhruva Sahrawat</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/Raghav-Kapoor.html" class="off">Raghav Kapoor</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/raghav-mehta.html" class="off">Raghav Mehta</a></div>
+            <!-- <p class="note">Part Time Researcher, WalmartLabs</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/anmol-chugh.html" class="off">Anmol Chugh</a></div>
+            <!-- <p class="note">Software Developer, Adobe Systems</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/varnit-jain.html" class="off">Varnit Jain</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/karan-dabas.html" class="off">Karan Dabas</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/arnav-arora.html" class="off">Arnav Arora</a></div>
+            <!-- <p class="note">Research Assistants, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/aditya-pathak.html" class="off">Aditya Kumar Pathak</a></div>
+            <!-- <p class="note">Research Associate, IIIT Bhubaneswar</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/sanket-jain.html" class="off">Sanket Jain</a></div>
+            <!-- <p class="note">M.Tech 2018, Microsoft</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/ashutosh-pandey.html" class="off">Ashutosh Pandey</a></div>
+            <!-- <p class="note">M.Tech 2018, Intel</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/himanshu-aggarwal.html" class="off">Himanshu Aggarwal</a></div>
+            <!-- <p class="note">M.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/anjali-bhavan.html" class="off">Anjali Bhavan</a></div>
+            <!-- <p class="note">B.Tech Student, Delhi Technological University</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/vaishali.html" class="off">Vaishali Dabral</a></div>
+            <!-- <p class="note">M.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/tushar.html" class="off">Tushar Jain</a></div>
+            <!-- <p class="note">M.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/simra.html" class="off">SIMRA SHAHID</a></div>
+            <!-- <p class="note">B.Tech Student, DTU</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/shubham-thakral.html" class="off">Shubham Thakral</a></div>
+            <!-- <p class="note">B.Tech Student, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/salik.html" class="off">Mohammad Salik</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/sahil.html" class="off">Sahil Chopra</a></div>
+            <!-- <p class="note">B.Tech Student, MSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/rohit.html" class="off">Rohit Jain</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/rajat.html" class="off">Rajat</a></div>
+            <!-- <p class="note">B.Tech Student, MAIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/pratham.html" class="off">Pratham Nawal</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/meghna.html" class="off">Meghna P Ayyar</a></div>
+            <!-- <p class="note">Research Assistants, IIIT-Delhi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/mayank.html" class="off">Mayank Aggarwal</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/hitesh.html" class="off">Hitesh Nankani</a></div>
+            <!-- <p class="note">B.Tech Student, NSIT</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+      
+      
+       <!-- opening of a new row -->
+      <div class="row">
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/himanshu.html" class="off">Himanshu</a></div>
+            <!-- <p class="note">B.Tech Student, DTU</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/ayush.html" class="off">Ayush Gupta</a></div>
+            <!-- <p class="note">B.Tech Student, DTU</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/akash.html" class="off">Akash Kumar</a></div>
+            <!-- <p class="note">B.Tech Student, DTU</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/agniv.html" class="off">Agniv Sharma</a></div>
+            <!-- <p class="note">B.Tech 2018, Western Digital</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/abhigyan.html" class="off">Abhigyan Khaund</a></div>
+            <!-- <p class="note">B.Tech Student, IIT Mandi</p> -->
+            </div>
+        </div>
+        </div>	  
+      
+    
+      
+      
+      
+      <div class="col-md-2 memberbox">
+        <div class="media">
+             <div class="media-body">
+            <div class="media-heading member-name"><a href="/team/aarya.html" class="off">Aarya Patel</a></div>
+            <!-- <p class="note">B.Tech Student, JIIT</p> -->
+            </div>
+        </div>
+        </div>	  
+       <!-- closing a row -->
+      </div><div class="bigspacer"></div>
+      
+    
+    
+    
+       </div>
+
+  <!-- ======= Footer ======= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h3>About SoftLand</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam aperiam
+            dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
+          <p class="social">
+            <a href="#"><span class="bi bi-twitter"></span></a>
+            <a href="#"><span class="bi bi-facebook"></span></a>
+            <a href="#"><span class="bi bi-instagram"></span></a>
+            <a href="#"><span class="bi bi-linkedin"></span></a>
+          </p>
+        </div>
+        <div class="col-md-7 ms-auto">
+          <div class="row site-section pt-0">
+            <div class="col-md-4 mb-4 mb-md-0">
+              <h3>Navigation</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <h3>Services</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Collaboration</a></li>
+                <li><a href="#">Todos</a></li>
+                <li><a href="#">Events</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+              <h3>Downloads</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Get from the App Store</a></li>
+                <li><a href="#">Get from the Play Store</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center text-center">
+        <div class="col-md-7">
+          <p class="copyright">&copy; Copyright SoftLand. All Rights Reserved</p>
+          <div class="credits">
+            <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=SoftLand
+          -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
